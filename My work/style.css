@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+input{
+    position: absolute;
+    top: -100px;
+}
+input::before{
+    content: "";
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(./8bIq.gif);
+    background-size: cover ;
+    border: 1px solid white;
+    top: 120px;
+    left: 95%;
+    border-radius: 100%;
+}
+input:checked + .global{
+    background: url(./T2lZ.gif);
+    background-size: cover;
+}
+input:checked + .global h1{
+    color: red;
+}
+input:checked + .global p{
+    color: red;
+}
+input:checked + .global .papa .pa .level1{
+    background: url(./4CND.gif);
+    background-size: cover;
+    border: 2px solid red;
+}
+input:checked + .global .papa .pa .level1 h1{
+    color: cyan;
+}
+input:checked + .global .papa .pa .level1 .les{
+    background: url(./NvL.gif);
+    background-size: cover;
+    border: 2px solid white;
+}
+input:checked + .global .papa .pa .level1 .les .ples{
+    border-bottom: 2px solid white;
+}
+input:checked + .global .papa .pa .level1 .les .ples p{
+    color: red;
+    font-size: 17px;
+}
+input:checked + .global .papa .pa .level1 .les .lcard .view{
+   border: 2px solid white;
+}
+input:checked + .global .papa .pa .level1 .les .lcard .view a{
+    color: white;
+}
+input:checked + .global .papa .pa .level1 .les .lcard p{
+    color: white;
+}
+input:checked + .global .papa .pa .level2{
+    background: url(./4CND.gif);
+    background-size: cover;
+    border: 2px solid red;
+}
+input:checked + .global .papa .pa .level2 .les{
+    background: url(./NvL.gif);
+    background-size: cover;
+    border: 2px solid white;
+}
+input:checked + .global .papa .pa .level2 .les .ples{
+    border-bottom: 2px solid white;
+}
+input:checked + .global .papa .pa .level2 .les .ples p{
+    color: red;
+    font-size: 17px;
+}
+input:checked + .global .papa .pa .level2 .les .lcard .view{
+   border: 2px solid white;
+}
+input:checked + .global .papa .pa .level2 .les .lcard .view a{
+    color: white;
+}
+input:checked + .global .papa .pa .level2 .les .lcard p{
+    color: white;
+}
+.global{
+    width: 100%;
+    height: 100%;
+    margin-top: -60px;
+    padding-top: 50px;
+}
+h1{
+    text-align: center;
+    font-family:  'Mochiy Pop P One', cursive;
+}
+p{
+    text-align: center; 
+    font-family:  'Mochiy Pop P One', cursive;
+}
+.papa h1{
+    text-align: left;
+}
+.papa p{
+    text-align: left;
+}
+.pa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.level1{
+  width: 1150px;
+  min-height: 400px;
+  background-color: rgb(207, 206, 206);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 13px 10px 13px 10px rgba(0,0,0,0.81);
+}
+.level2{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 1150px;
+  min-height: 600px;
+  background-color: rgb(207, 206, 206);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 13px 10px 13px 10px rgba(0,0,0,0.81);
+}
+.div{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.les{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 350px;
+    height: 130px;
+    margin: 10px;
+}
+.les:hover{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 350px;
+    height: 130px;
+    margin: 10px;
+    box-shadow: 5px 3px 5px 3px rgba(0,0,0,0.81);
+}
+.ples{
+    border-bottom: 2px solid black;
+    padding-left: 5px;
+}
+.lcard{
+    display: flex;
+    align-items: center;
+}
+.lcard p{
+    margin-top: 20px;
+    margin-left: 70px;
+    color: rgba(0, 0, 0, 0.568);
+}
+.view{
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.view:hover{
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 5px 3px 5px 3px rgba(0,0,0,0.81);
+}
+.view a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 12px;
+    }
+}

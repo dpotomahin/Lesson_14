@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+input{
+    position: absolute;
+    top: -100px;
+    left: -200px;
+}
+input::before{
+    content: "";
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(./8bIq.gif);
+    background-size: cover ;
+    border: 1px solid white;
+    top: 120px;
+    left: 95%;
+    border-radius: 100%;
+}
+input:checked + .global{
+     background: url(./T2lZ.gif);
+     background-size: cover;
+}
+input:checked + .global .big1{
+    background-color: white;
+    border: 3px solid cyan;
+    overflow: hidden;
+}
+input:checked + .global .big1 .header{
+    background: url(./7tD0.gif) ;
+    background-size: cover;
+}
+input:checked + .global .big1 .box_header1 .menu a{
+    color: rgb(68, 253, 44);
+}
+input:checked + .global .big1 .box_header1 .logo h2{
+    color: red;
+}
+input:checked + .global .big1 .box_header1{
+    border-bottom: 2px solid cyan;
+}
+input:checked + .global .big1 .box_header2 .box_text_header{
+    color: rgb(68, 253, 44);
+}
+input:checked + .global .big1 .box_header2 .knopka a{
+    background-color: cyan;
+}
+input:checked + .global .big2{
+    background: url(./UB7D.gif) center ;
+    border: 3px solid rgb(68, 253, 44);
+}
+input:checked + .global .big2 i{
+    color: rgb(68, 253, 44);
+}
+input:checked + .global .big3{
+    border: 3px solid cyan;
+    background: url(./7tD0.gif);
+    background-size: cover;
+}
+input:checked + .global .big3 .small1{
+    background-color:rgba(68, 253, 44, 0);
+    border-right: 2px solid cyan ;
+}
+input:checked + .global .big3 .small1 a{
+    color: rgb(68, 253, 44);
+    margin: auto;
+}
+.global{
+    width: 100%;
+    height: 100%;
+    margin-top: -80px ;
+    padding-top: 60px;
+}
+.big1{
+    margin: auto;
+    margin-top: 30px;
+    width: 900px;
+    height: 460px;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 13px 10px 13px 10px rgba(0,0,0,0.81);
+    transition: all 0.2s;
+}
+.big1:hover{
+    margin: auto;
+    margin-top: 30px;
+    width: 900px;
+    height: 470px;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 15px 12px 15px 12px rgba(0,0,0,0.81);
+}
+.big2{
+    margin: auto;
+    margin-top: 30px;
+    width: 900px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 13px 10px 13px 10px rgba(0,0,0,0.81);
+    transition: all 0.2s;
+    font-size: 40px;
+}
+.big2 i{
+    margin-left: 60px;
+}
+.big2:hover{
+    margin: auto;
+    margin-top: 30px;
+    width: 900px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 15px 12px 15px 12px rgba(0,0,0,0.81);
+}
+.big3{
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    width: 900px;
+    height: 460px;
+    border: 3px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 13px 10px 13px 10px rgba(0,0,0,0.81);
+    transition: all 0.2s;
+}
+.big3:hover{
+    width: 900px;
+    height: 470px;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 15px 12px 15px 12px rgba(0,0,0,0.81);
+}
+.header{
+    background: url(./img/fon.jpg) ;
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    background-position: center;
+}
+.box_header1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color:rgba(240, 255, 240, 0);
+    border-bottom: 2px solid ;
+}
+.logo{
+    background-color:rgba(240, 255, 240, 0);
+    margin-left: 20px;
+}
+.logo h2{
+ font-size: 25px;
+ font-family:  'Mochiy Pop P One', cursive;
+ color: hotpink;
+}
+.menu{
+   margin-left: 200px ;
+   font-size: 18px;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.box_header2{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 80px;
+}
+.box_text_header h1{
+   font-family: 'Mochiy Pop P One', cursive;
+   font-size: 50px;
+}
+.box_text_header p{
+    font-family: 'Mochiy Pop P One', cursive;
+    font-size: 20px;
+}
+.knopka{
+    margin-top: 50px;
+}
+.knopka a{   
+   text-decoration: none;
+   border: 2px solid black; 
+   padding: 20px 80px;
+   background-color: gray;
+   transition: all 0.3s;
+}
+.knopka a:hover{
+    background-color: rgb(105, 105, 105);
+    box-shadow: 13px 10px 13px 10px rgba(0,0,0,0.81);
+}
+.menu a:hover{
+    color:rgb(85, 169, 248);
+    font-size: 20px;
+    border-bottom: 1px solid rgb(85, 169, 248);
+    transition: all 0.2s;  
+}
+.small1{
+    width: 130px;
+    height: 100%;
+    background-color: rgb(155, 155, 155);
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+.small1 a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.small2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small2 a{
+    text-decoration: none;
+}
+.small1 a:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.into{
+    width: 550px;
+    height: 350px;
+    background: url(./IMG_4990.jpeg) center;
+    background-size: cover;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.start{
+    color: honeydew;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: none;
+    position: static;
+}
